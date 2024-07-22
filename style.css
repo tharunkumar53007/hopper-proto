@@ -143,4 +143,9 @@ footer{
     .head-content h1 {
         font-size: 22px;
     }
+
+    header ul li a{
+        font-size: 14px;
+    }
+
 }
