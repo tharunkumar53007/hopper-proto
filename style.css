@@ -146,6 +146,8 @@ footer{
 
     header ul li a{
         font-size: 14px;
+        margin-right: 0px;
+        margin-left: 13px;
     }
 
 }
