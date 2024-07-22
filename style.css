@@ -128,4 +128,8 @@ footer{
     .services ul{
         list-style-type: none;
     }
+
+    .services ul li{
+        margin-left: 0px;
+    }
 }
