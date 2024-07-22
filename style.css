@@ -140,5 +140,7 @@ footer{
         padding: 0px;
     }
 
-
+    .head-content h1 {
+        font-size: 22px;
+    }
 }
