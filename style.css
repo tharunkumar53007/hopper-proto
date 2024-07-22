@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #005f73;
+    color: white;
+   padding: 15px ;
+    
+    ul{
+        list-style-type: none;
+    }
+    ul li{
+        display: inline;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin-right: 15px;
+        font-weight: bold;
+        transition: color 0.3s ;
+    }
+}
+
+header ul li a:hover{
+    color: aquamarine;
+}
+
+.head-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.welcome{
+    background-image: url(https://i.imgur.com/oXrLmSl.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.pop{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.pop a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+.pop a:hover{
+    background-color: #d64b2a;
+}
+
+section{
+    padding: 20px;
+}
+
+.services{
+
+    ul{
+        list-style-type: circle;
+    }
+
+    li{
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    h2{
+        color: #007bff;
+    }
+}
+
+.services ul li:hover, .contact p:hover{
+    color: #0056b3;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.about{
+    background-color: #f0f0f0;
+
+}
+
+.title2{
+    color: #28a745;
+}
+
+.contact h2{
+    color: #dc3545;
+}
+
+footer{
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width:768px){
+    .services, .about, .contact{
+        text-align: center;
+    }
+
+    .services ul{
+        list-style-type: none;
+    }
+}
